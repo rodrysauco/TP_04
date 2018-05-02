@@ -4,11 +4,8 @@ MAVEN:
   Goals:
 
     -MVN Clean: Limpia las clases compiladas del proyecto.
-
     -MVN Compile: Compila el proyecto.
-
     -MVN Package: Empaqueta el proyecto.
-
     -MVN Install: Lo instala en el repositorio.        
   
   Scopes:
@@ -47,10 +44,10 @@ MAVEN:
 Spring
 
   Stereotypes:
-![ADSA](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypes.png)
 
     -Component: Es el mas general y nos permite generar un bean para que sea considerada la clase un objeto.
-  
+![ADSA](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypes.png)
+
     -Controller: Se encarga de realizar la comunicacion entre el usuario y la aplicacion.
 ![Controladora](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesController.png)    
 
@@ -63,4 +60,23 @@ Spring
 REST
   
   Verbos:
+
+    Get: Es una peticion de datos desde el cliente hacia el servidor. Es una peticion de solo lectura.
+
+    Post: Se utiliza cuando se debe procesar informacion por parte del servidor.
+
+    Put: Se utiliza para crear o actualizar el recurso identificado por la URL.
+
+    Delete: Se utiliza para eliminar el recurso solicitado por la URL.
+
+    Head: Igual a la de GET, pero sin el cuerpo de la respuesta.
+
+    Options: Es utilizado para describir las opciones de comunicacion para el destinatario.
+
+    Connect: Establece un tunel hacia el servidor identificado por el recurso.
+
+    Patch: Es utilizado para aplicar modificaciones parciales de un recurso.
+
+    Trace: Es utilizado para retornar mensajes a lo largo de la ruta al recurso de destino.
+
 
