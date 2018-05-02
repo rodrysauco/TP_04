@@ -2,25 +2,18 @@
 MAVEN: 
 
   Goals:
-
     -MVN Clean: Limpia las clases compiladas del proyecto.
     -MVN Compile: Compila el proyecto.
     -MVN Package: Empaqueta el proyecto.
     -MVN Install: Lo instala en el repositorio.        
   
   Scopes:
-
     -Compile: Viene por defecto y nos indica que dependencia es necesaria para compilar.
-
     -Provided: Similar a la anterior pero se espera que las dependencias ya esten dentro del contenedor.
-
     -Runtime: Es una dependencia que no es necesaria para compilar pero si es necesara en tiempos de ejecucion.
-
     -Test: Es una dependencia que se utiliza solo para testing.
-
     -System: Similar al provided pero tenes que especificar la ruta en la que esta ya que MVN no la buscara localmente.
-
-    -Import: 
+    -Import: Es solamente utilizado en el apartado de Dependency Management, donde indica la dependencia a ser reemplazada por una lista de dependencias.
     
   -) El ArqueType o ArcheType es un generador de proyectos Maven (usualmente crea la estructura del proyecto mediante plantillas ya establecidas).
 
