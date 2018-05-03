@@ -1,0 +1,4 @@
+com\utn\Proyecto4\Proyecto4Application.class
+com\utn\Proyecto4\DAO\iDao.class
+com\utn\Proyecto4\Controller\ClientesController.class
+com\utn\Proyecto4\Models\Cliente.class
